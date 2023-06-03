@@ -27,6 +27,7 @@ public class ApiSecurityConfig extends WebSecurityConfigurerAdapter {
     public void configure(WebSecurity web) throws Exception {
         super.configure(web);
     }
+    //configure
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
